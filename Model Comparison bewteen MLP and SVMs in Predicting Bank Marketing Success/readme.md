@@ -1,0 +1,9 @@
+# Comparing The Performance of Multilayer Perceptrons and Support Vector Machines in Predicting The Success of Marketing Campaigns in an Individual Sale.
+
+## Abtract
+In this paper, we aim to investigate the performance between two supervised algorithms, in predicting the success of a telemarketing campaign based on several features of the clientele. The two algorithms compared here are the Feedforward Multilayer Perceptron (MLP) and Support Vector Machines (SVM). Different hyperparameter configurations were explored using grid search and validated using a 5-fold cross validation. The tested results were then compared using Balanced Accuracy Scores and Confusion Matrices. The results indicated that MLP was the best model for our problem domain, but test results were underwhelming showing the need for future work.
+
+
+## Introduction
+Marketing selling campaigns are one of the key strategies used to grow business’ revenues and is one of the largest costs incurred by them depending on the industry. Direct marketing is often used when a business have a product which they are trying to push. However, these campaigns generally have a low individual success rate and utilise the advantage of large numbers to hit the outreach quota making it extremely inefficient and cost ineffective. Therefore, if a predictive model can be made, the number of clienteles that needs to be contacted would be reduced significantly.
+The goal of this paper is to critically evaluate the use of two algorithms, Multilayer Perceptron (MLP) and Support Vector Machines (SVM) in predicting if a client has subscribed to a term deposit given a number of features regarding that client. Various hyperparameters were considered to find the optimal models for both algorithms and their performance was investigated using the metrics accuracy score and confusion matrix.
